@@ -1,1 +1,28 @@
-/*  your css code here. If applicable */
+  .block-heading {
+      color: #3b99e0;
+      text-align: center; /* Center-aligned as per specification */
+      margin-bottom: 30px;
+    }
+    .summary {
+      border-top: 2px solid #5ea4f3;
+      background-color: #f7fbff;
+      padding: 20px;
+    }
+    .summary .cart-total {
+      padding-bottom: 10px;
+      border-bottom: 1px solid #dee2e6;
+      margin-bottom: 10px;
+    }
+    .summary button {
+      background-color: #3b99e0;
+      color: #fff;
+      border: none;
+    }
+    .product .product-info {
+      display: flex;
+      align-items: center;
+    }
+    .product .product-info img {
+      max-width: 100px;
+      margin-right: 20px;
+    }
